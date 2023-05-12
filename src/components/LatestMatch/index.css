@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.card-container {
+  margin-top: 20px;
+  /* width: 100%; */
+  font-family: 'Bree Serif';
+}
+.h1 {
+  color: #ffffff;
+  font-size: 16px;
+}
+.latest-card {
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  /* width: 65%; */
+}
+.line {
+  border: 1px solid #ffffff;
+}
+.match-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #ffffff;
+  width: 80%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.p1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.logo {
+  width: 100px;
+  height: 110px;
+}
+.match-details-container {
+  display: flex;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.item {
+  width: 45%;
+  border: 0.5px solid #fff9fc;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.match {
+  color: #ffffff;
+  font-size: 17px;
+}
+.value {
+  color: #ffffff;
+  font-size: 13px;
+}
